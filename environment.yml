@@ -1,0 +1,28 @@
+name: gmso-showcase
+channels:
+  - conda-forge
+  - mosdef
+  - bioconda
+  - omnia
+dependencies:
+  - python=3.7
+  - numpy
+  - sympy
+  - unyt >= 2.4
+  - boltons
+  - lxml
+  - pytest
+  - mbuild >= 0.10.6
+  - openbabel >= 3.0
+  - foyer
+  - gsd >= 2.0
+  - parmed
+  - pytest-cov
+  - codecov
+  - pip
+  - matplotlib
+  - py3Dmol
+  - pydantic
+  - nodejs>=10
+  - jupyterlab
+  - jupyter-offlinenotebook
