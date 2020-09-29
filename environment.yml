@@ -26,3 +26,5 @@ dependencies:
   - nodejs>=10
   - jupyterlab
   - jupyter-offlinenotebook
+  - pip:
+    - "--editable=git+https://github.com/mosdef-hub/gmso.git#egg=gmso-master"
