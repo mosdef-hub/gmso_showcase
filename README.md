@@ -9,7 +9,6 @@ For further information visit the `gmso` documentation at https://gmso.mosdef.or
 ### Contents:
 1. [structures.ipynb](./notebooks/structures.ipynb): Demos the core data structures and design decisions in gmso.
 2. [ethane_example.ipynb](./notebooks/ethane_example.ipynb): Demos a simulation workflow using features in gmso.
->>>>>>> origin/master
 
 ## Usage
 Clone this repository and create a new conda environment from the file [environment.yml](./environment.yml) and start jupyter.
