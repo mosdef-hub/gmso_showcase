@@ -1,0 +1,23 @@
+units          real
+boundary       p p p
+atom_style     full
+bond_style     harmonic
+angle_style    harmonic
+dihedral_style opls
+pair_style     lj/cut/coul/long 10.0
+kspace_style   pppm 1.0e-5
+timestep       1.0
+pair_modify    mix arithmetic 
+thermo         1
+read_data      ethane.lammps
+# Fix ethane bonds involving hydrogen
+fix            1 all shake 1.0e-4 200 0 m 1.007947
+# Edit neighbor list options
+neighbor       1.0 bin
+neigh_modify   every 1 delay 0 check yes
+# Run NVT sampling
+fix            NVTsample all nvt temp 298.0 298.0 1000.0
+dump           nvtdump all dcd 1 nvt.dcd
+run            0
+write_data     data.sample
+
