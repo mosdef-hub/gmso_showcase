@@ -1,0 +1,22 @@
+name: Build and Cache Docker Image
+on:
+  push:
+    branches:
+      - master
+      - 6-binder-cache
+
+jobs:
+  cache-mybinder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: action/checkout@v2
+
+      - name: Build docker image with repo2docker
+        uses: jupyterhub/repo2docker-action@master
+        with:
+          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+          MYBINDERORG_TAG: ${{ github.event.ref }}
+          PUBLIC_REGISTRY_CHECK: true
+          IMAGE_NAME: "tumesh/gmso_showcase"
