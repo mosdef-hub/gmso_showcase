@@ -28,5 +28,6 @@ dependencies:
   - jupyter-offlinenotebook
   - gromacs
   - lammps
+  - pocl
   - pip:
     - "--editable=git+https://github.com/mosdef-hub/gmso.git#egg=gmso-master"

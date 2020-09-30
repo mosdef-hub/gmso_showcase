@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/umesh-timalsina/gmso_showcase/refs/heads/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/umesh-timalsina/gmso_showcase/master)
 ![Build and Cache Docker Image](https://github.com/umesh-timalsina/gmso_showcase/workflows/Build%20and%20Cache%20Docker%20Image/badge.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## GMSO Show Case
@@ -19,4 +19,5 @@ $ conda env create --file environment.yml
 $ jupyter notebook
 ```
 
-Alternatively, you can directly launch this repository in [MyBinder](https://mybinder.org/v2/gh/umesh-timalsina/gmso_showcase/refs/heads/master).
+
+Alternatively, you can directly launch this repository in [MyBinder](https://mybinder.org/v2/gh/umesh-timalsina/gmso_showcase/master).
