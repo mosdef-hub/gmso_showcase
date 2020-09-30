@@ -128,6 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# The src directory created for editable install of gmso
-
+# Added by editable install of gmso via pip
 src/
