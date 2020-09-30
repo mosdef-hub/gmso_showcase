@@ -2,13 +2,13 @@
 ![Build and Cache Docker Image](https://github.com/umesh-timalsina/gmso_showcase/workflows/Build%20and%20Cache%20Docker%20Image/badge.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## GMSO Show Case
-This repository contains a collection of interactive notebooks for showcasing current features and capabilities of [gmso](https://github.com/mosdef-hub/gmso).
+This repository contains a collection of interactive notebooks to showcase current features and capabilities of [gmso](https://github.com/mosdef-hub/gmso).
 
 For further information visit the `gmso` documentation at https://gmso.mosdef.org. 
 
 ### Contents:
-1. [structures.ipynb](./notebooks/structures.ipynb): Demos the core data structures and design decisions in GMSO.
-2. [workflow.ipynb](./notebooks/workflow.ipynb): Demos a workflow using features in GMSO.
+1. [structures.ipynb](./notebooks/structures.ipynb): Demos the core data structures and design decisions in gmso.
+2. [ethane_example.ipynb](./notebooks/ethane_example.ipynb): Demos a simulation workflow using features in gmso.
 
 ## Usage
 Clone this repository and create a new conda environment from the file [environment.yml](./environment.yml) and start jupyter.
