@@ -19,6 +19,5 @@ $ conda env create --file environment.yml
 $ jupyter notebook
 ```
 
+
 Alternatively, you can directly launch this repository in [MyBinder](https://mybinder.org/v2/gh/umesh-timalsina/gmso_showcase/master).
-
-
