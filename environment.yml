@@ -24,11 +24,8 @@ dependencies:
   - py3Dmol
   - pydantic
   - nodejs>=10
-  - jupyterlab
-  - jupyter-offlinenotebook
   - gromacs
   - lammps
-  - pocl
   - nodejs>=10
   - jupyterlab
   - jupyter-offlinenotebook
@@ -43,6 +40,6 @@ dependencies:
   - dash_cytoscape
   - dash-table
   - jupyter-dash
-
+  - jupyter-server-proxy
   - pip:
     - "--editable=git+https://github.com/mosdef-hub/gmso.git#egg=gmso-master"
