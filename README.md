@@ -9,6 +9,8 @@ For further information visit the `gmso` documentation at https://gmso.mosdef.or
 ### Contents:
 1. [structures.ipynb](./notebooks/structures.ipynb): Demos the core data structures and design decisions in gmso.
 2. [ethane_example.ipynb](./notebooks/ethane_example.ipynb): Demos a simulation workflow using features in gmso.
+3. [Plotly_Dash_Demo.ipynb](./notebooks/Plotly_Dash_Demo.ipynb): Demos visualizing a gmso topology structure through plotly dash.
+4. [pandas_convert.py](./notebooks/pandas_convert.py): Functions used in Plotly_Dash_Demo.ipynb to convert the topology object to a pandas table.
 
 ## Usage
 Clone this repository and create a new conda environment from the file [environment.yml](./environment.yml) and start jupyter.
