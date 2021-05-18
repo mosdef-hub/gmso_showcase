@@ -15,6 +15,7 @@ dependencies:
   - mbuild >= 0.10.6
   - openbabel >= 3.0
   - foyer
+  - gmso
   - gsd >= 2.0
   - parmed
   - pytest-cov
@@ -41,5 +42,3 @@ dependencies:
   - dash-table
   - jupyter-dash
   - jupyter-server-proxy
-  - pip:
-    - "--editable=git+https://github.com/mosdef-hub/gmso.git#egg=gmso-master"
